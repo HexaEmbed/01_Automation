@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 #define SET_BIT(x, y) ((x) |= (1<<y))
-#define CLR_BIT(x, y) ((x) &= ~(1<<y) )
+#define CLR_BIT(x, y) ((x) &= ~(1<<y))
 
 int main(void)
 {
