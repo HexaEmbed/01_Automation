@@ -10,6 +10,7 @@ int main(void)
     printf("Application Code Here_00\n");
     printf("Application Code Here_01\n");
     printf("SET_BIT: %d\n",SET_BIT(x, y));
+    printf("SET_BIT: %d\n",SET_BIT(x, y));
     printf("END: main\n");
     return EXIT_SUCCESS;
 }
