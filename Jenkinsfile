@@ -6,14 +6,14 @@ pipeline {
                 git 'https://github.com/HexaEmbed/01_Automation.git'
             }
         }
-        stage('Install Dependencies') {
+        stage('Build') {
             steps {
-                sh 'pip3 install -r requirements.txt'
+                sh 'gcc -o app main.c'
             }
         }
-        stage('Run Tests') {
+        stage('Test') {
             steps {
-                sh 'pytest tests/'
+                sh './app'
             }
         }
     }
