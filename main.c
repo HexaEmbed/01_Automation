@@ -14,7 +14,7 @@ int main(void)
     printf("SET_BIT: %d\n",SET_BIT(x, y));
     printf("CLR_BIT: %d\n",CLR_BIT(x, y));
     printf("TGL_BIT: %d\n",TGL_BIT(x, y));
-    x = 6; y = 1;
+    x = 63; y = 1;
     printf("SET_BIT: %d\n",SET_BIT(x, y));
     printf("CLR_BIT: %d\n",CLR_BIT(x, y));
     printf("TGL_BIT: %d\n",TGL_BIT(x, y));
