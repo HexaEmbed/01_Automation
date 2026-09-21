@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/HexaEmbed/01_Automation.git'
+                git branch: 'main', url: 'https://github.com/HexaEmbed/01_Automation.git'
             }
         }
         stage('Build') {
